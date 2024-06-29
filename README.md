@@ -1,13 +1,14 @@
 # OSProject Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: __SemaphoreU__. 
 
-Section: __Fill your class section__. 
+Section: __2__. 
 
 Team Mates:
-1. __MOHA MATH YAFA__ and __2124769__
-2. __Fill name__ and __matric no__
-3. __Fill name__ and __matric no__
+1. __Moha Math Yafa__ and __2124769__
+2. __Mao xin yu__ and __1917015__
+3. __Muhammad Amir Zarieff bin Jefnee__ and __2216919__
+5. __Muhammad Afif bin Husnan__ and __2212583__
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
@@ -24,9 +25,14 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __[(https://github.com/Yafa11203/OSProject)]__.
-2. How many files and folders are in this repository. ***(1 mark)*** __[7] files and [1] folder__.
-
+1. What is the link of the fork OSProject in your repository. 
+```bash
+https://github.com/Yafa11203/OSProject
+```
+2. How many files and folders are in this repository.
+```
+7 files and 1 folder
+```
 
 ## Exploring github codespaces
 
@@ -57,10 +63,19 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __[Linux]__.
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __[2-core with 8GB Ram.32GB] and [4-core with 16GB Ram.32GB]__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __[Because if we did not commit and sync, our work will be lost since it is not saved into the main repository].__.
-
+1. What is default OS used to run the virtual environment for codespaces.
+```bash
+Linux
+```
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces.
+```bash
+2-core with 8GB Ram.32GB
+4-core with 16GB Ram.32GB
+```
+3. Why must we commit and sync our current work on source control? 
+```
+Because if we did not commit and sync, our work will be lost since it is not saved into the main repository.
+```
 ## Exploring the Terminal
 
 1. Look at the TERMINAL tab. Explore and run commands according to the questions below. 
@@ -76,24 +91,88 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+1. Run the command **pwd** .
 
+<img src="./answerimage/question1terminal.png" width="50%">
+
+2. Run the command **cat /etc/passwd** .
+
+<img src="./answerimage/question2termimal.png" width="70%">
+
+3. Run the command **df** . 
+
+<img src="./answerimage/question3terminal.png" width="50%">
+
+
+4. Run the command **du** .
+
+<img src="./answerimage/question4aterminal.png" width="70%">
+<img src="./answerimage/question4bterminal.png" width="70%">
+<img src="./answerimage/question4cterminal.png" width="70%">
+
+5. Run the command **ls** .
+
+<img src="./answerimage/question5terminal.png" width="40%">
+
+
+6. Run the command **ls -asl** .
+
+<img src="./answerimage/question6terminal.png" width="70%">
+
+7. Run the command **free -h** .
+
+<img src="./answerimage/question7terminal.png" width="70%">
+
+8. Run the command **cat /proc/cpuinfo** .
+
+<img src="./answerimage/question8aterminal.png" width="70%">
+<img src="./answerimage/question8bterminal.png" width="70%">
+
+9. Run the command **top** and type **q** to quit.
+
+<img src="./answerimage/question9terminal.png" width="50%">
+
+10. Run the command **uname -a**.
+
+<img src="./answerimage/question10terminal.png" width="100%">
+
+11. What is the available free memory in the system.
+
+```bash
+6.0 Gigabyte
+```
+12. What is the available disk space mounted on /workspace.
+
+```bash
+20772252
+```
+
+13. Name the version and hardware architecture of the linux Virtual environment.
+```bash
+Linux codespaces-e6b9b2 6.5.0-1022-azure x86_64
+```
+14. What is the difference between **ls** vs **ls -asl**.
+```bash
+ls is a quick way to see filenames in the current directory.
+
+ls -asl provides a detailed listing with additional information about files and folders.
+```
+15. What is the TLB size of the Virtual CPU.
+```bash
+2560 4K pages
+```
+
+16. What is the CPU speed of the Virtual CPU.
+```bash
+Processor 0: 3239.685 MHz.
+
+Processor 1: 3108.724 MHz.
+```
+
+17. What is the top running process that consumes the most CPU cycles.
+```bash
+The top running process consuming the most CPU cycles is likely the Node.js application with PID 2791 owned by the user codespace+. It currently using approximately 1.3% of CPU resources.
+```
 ## Running your own container instance.
 
 1. At the terminal, run a linux instance. By typing the following command. 
