@@ -270,7 +270,7 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 sudo chown -R codespace:codespace myroot
 
 ```
-*** Yes ***
+*** Yes. We can change the permission of the files in the myroot directory ***
 
 ```bash
 @AmirZarieff ➜ /workspaces/OSProject/myroot (main) $ sudo chown -R codespace:codespace /workspaces/OSProject/myroot
