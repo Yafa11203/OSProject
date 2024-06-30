@@ -258,10 +258,13 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 ***Questions:***
 
 1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+
+![image](https://github.com/Yafa11203/OSProject/assets/133976724/8ad8f599-f473-410e-961d-5276ccdb435c)
+
    ```bash
    @AmirZarieff ➜ /workspaces/OSProject/myroot (main) $ ls -l /workspaces/OSProject/myroot
    total 4
-   -rw-rw-rw- 1 root root 14 Jun 27 10:36 helloworld.txt
+   -rw-rw-rw- 1 root root 16 Jun 30 14:29 helloworld.txt
    ```
 
 3. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
@@ -272,11 +275,13 @@ sudo chown -R codespace:codespace myroot
 ```
 *** Yes. We can change the permission of the files in the myroot directory ***
 
+![image](https://github.com/Yafa11203/OSProject/assets/133976724/78e10d22-f396-4b6c-8fa7-a0870ce7dbc5)
+
 ```bash
 @AmirZarieff ➜ /workspaces/OSProject/myroot (main) $ sudo chown -R codespace:codespace /workspaces/OSProject/myroot
 @AmirZarieff ➜ /workspaces/OSProject/myroot (main) $ ls -l /workspaces/OSProject/myroot
 total 4
--rw-rw-rw- 1 codespace codespace 14 Jun 27 10:36 helloworld.txt
+-rw-rw-rw- 1 codespace codespace 16 Jun 30 14:29 helloworld.txt
    ```
 
 ## You are on your own, create your own static webpage
