@@ -1,6 +1,6 @@
 # OSProject Running Containers for Application Development
 
-Group Name: __SemaphoreU__. 
+Group Name: __abc__. 
 
 Section: __2__. 
 
@@ -315,6 +315,10 @@ Link for the webpage: https://improved-space-goggles-x6p6rp5rr4wf9699-8080.app.g
 ***Questions:***
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
+```
+@Yafa11203 ➜ /workspaces/OSProject (main) $ ls -ld /workspaces/OSProject/webpage
+drwxrwxrwx+ 3 codespace codespace 4096 Jun 29 18:30 /workspaces/OSProject/webpage
+```
 2. What port is the apache web server running. 
 ```
 Port: 80
